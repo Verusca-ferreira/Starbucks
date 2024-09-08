@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Starbucks Coffe</title>
+</head>
+
+<body>
+
+    <div class="circulo"></div >
+
+    <img src="./img/logo.png" alt="logo starbucks" class="logo">
+
+    <div class="conteudo">
+        <div class="caixa-texto">
+            <h2>Não é apenas Café, é um <span>Starbucks.</span></h2>
+
+            <p>Café gelado como você nunca experimentou antes, do grão à xícara, um processo cuidadoso para um sabor
+                único! <br>
+                Preparado com cuidado e paixão, nosso café gelado é a companhia perfeita para os momentos mais quentes
+                do dia. <br>
+                Venha nos visitar e descubra um novo conceito de café gelado.</p>
+
+            <button>Saiba mais</button>
+        </div>
+
+        <div class="caixa-imagem">
+            <img src="./img/img1.png" alt="copa starbucks" class="starbucks">
+        </div>
+    </div>
+
+
+    <div class="menu">
+        <img src="./img/img-pequena1.png" class="botao-menu" onclick="trocaImagem ('./img/img1.png'); trocaCor('#017143')">
+
+        <img src="img/img-pequena2.png" class="botao-menu" onclick="trocaImagem ('./img/img2.png'); trocaCor('#eb7495')">
+
+        <img src="img/img-pequena3.png" class="botao-menu" onclick="trocaImagem ('./img/img3.png'); trocaCor('#d752b1')">
+    </div>
+
+</body>
+
+<script src="./scripts.js"> </script>
+
+</html>
